@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_rating_icons",
+  "info": {
+    "displayName": "icon"
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string",
+      "default": "bx bxs-star",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_logos",
+  "info": {
+    "singularName": "site-logo",
+    "pluralName": "site-logos",
+    "displayName": "Site Logo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blackLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "whiteLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

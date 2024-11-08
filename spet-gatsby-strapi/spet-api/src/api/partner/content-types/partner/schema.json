@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "partners",
+  "info": {
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "Partner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Ready to talk?",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "default": "Our team is here to answer your question about Spet",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Contact Us",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "getStarted": {
+      "type": "string",
+      "required": true,
+      "default": "Or, get started now with a free trial"
+    },
+    "getStartedLink": {
+      "type": "string",
+      "default": "#"
+    },
+    "partnerTitle": {
+      "type": "string",
+      "default": "More that 1.5 million businesses and organizations use Spet"
+    },
+    "partnersList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.image"
+    }
+  }
+}

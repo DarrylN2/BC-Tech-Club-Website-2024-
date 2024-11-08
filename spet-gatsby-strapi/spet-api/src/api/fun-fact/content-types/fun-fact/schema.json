@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "fun_facts",
+  "info": {
+    "singularName": "fun-fact",
+    "pluralName": "fun-facts",
+    "displayName": "Fun Fact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "We always try to understand users expectation"
+    },
+    "shortText": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "funfactsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "funfact.list"
+    },
+    "titleTwo": {
+      "type": "string",
+      "default": "Have Any Questions About Us?",
+      "required": true
+    },
+    "shortTextTwo": {
+      "type": "string",
+      "default": "Don't hesitate to contact us",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Contact Us",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}

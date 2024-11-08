@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "iconName": {
+      "type": "string",
+      "default": "bx bx-server",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "boxColorClass": {
+      "type": "string",
+      "default": "bg-cdf1d8",
+      "required": true
+    },
+    "contentDetails": {
+      "type": "richtext",
+      "required": true
+    },
+    "aosDelay": {
+      "type": "string",
+      "default": "100",
+      "required": true
+    }
+  }
+}

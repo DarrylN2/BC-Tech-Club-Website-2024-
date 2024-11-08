@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_feedback_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "feedbackText": {
+      "type": "text",
+      "required": true
+    },
+    "rating": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rating.icon",
+      "required": false
+    }
+  }
+}

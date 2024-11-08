@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_ones",
+  "info": {
+    "singularName": "service-one",
+    "pluralName": "service-ones",
+    "displayName": "Service One",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Cloud Hosting Services",
+      "required": true
+    },
+    "shortText": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "servicesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-list.list"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
